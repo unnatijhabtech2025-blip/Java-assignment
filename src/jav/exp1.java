@@ -7,10 +7,10 @@ public class exp1 {
     double marks;
 
     // Constructor
-    exp1(int rollNo, String name, double marks) {
-        this.rollNo = rollNo;
-        this.name = name;
-        this.marks = marks;
+    exp1(int r, String n, double m) {
+        rollNo = r;
+        name = n;
+        marks = m;
     }
 
     // Method
@@ -27,5 +27,3 @@ public class exp1 {
         student.displayDetails();
     }
 }
-
-
