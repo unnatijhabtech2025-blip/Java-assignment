@@ -1,18 +1,18 @@
 package jav;
 
-public class exp2 {
+public class Student {
 
     String name;
     int rollNo;
 
     // Default Constructor
-    exp2() {
+    Student() {
         name = "Unknown";
         rollNo = 0;
     }
 
     // Parameterized Constructor
-    exp2(String n, int r) {
+    Student(String n, int r) {
         name = n;
         rollNo = r;
     }
@@ -25,8 +25,9 @@ public class exp2 {
 
     public static void main(String args[]) {
 
-        exp2 obj1 = new exp2();
-        exp2 obj2 = new exp2("Unnati", 101);
+        Student obj1 = new Student();
+
+        Student obj2 = new Student("Unnati", 101);
 
         System.out.println("Default Constructor");
         obj1.display();
@@ -37,5 +38,3 @@ public class exp2 {
         obj2.display();
     }
 }
-
-
