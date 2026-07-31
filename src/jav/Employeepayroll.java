@@ -1,5 +1,4 @@
 package jav;
-
 import java.util.Scanner;
 
 public class Employeepayroll {
@@ -39,3 +38,4 @@ public class Employeepayroll {
         sc.close();
     }
 }
+
